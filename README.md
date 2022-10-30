@@ -60,7 +60,7 @@ coords$chromosome_name = paste0('chr', coords$chromosome_name)
 chr_order = unique(cyto.info$Chromosome)
 coords$chromosome_name = factor(coords$chromosome_name, levels = chr_order)
 
-# Further mod
+# Further modification
 num = which(is.na(coords$chromosome_name))
 coords = coords[-num, ]
 
