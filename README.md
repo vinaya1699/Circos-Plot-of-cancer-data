@@ -99,7 +99,8 @@ RC.param = RCircos.Get.Plot.Parameters()
 RC.param['heatmap.color'] = "GreenWhiteRed"
 
 RCircos.Reset.Plot.Parameters(RC.param)
-![circosplot](https://user-images.githubusercontent.com/110582335/200104364-2e20f02f-814e-4442-be93-e26dee143c0c.png)
+![image](https://user-images.githubusercontent.com/110582335/200104612-5d46e401-f2fd-416c-8b11-245c531c92c8.png)
+
 
 # Interpretation :
 Outer circle indicates presence of genes on respective chromosomes 
