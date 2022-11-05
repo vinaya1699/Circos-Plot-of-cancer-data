@@ -95,10 +95,11 @@ RCircos.Heatmap.Plot(data, data.col = 7, track.num = 6, side = "in",
                      is.sorted = F)
 
 RC.param = RCircos.Get.Plot.Parameters()
-RC.param['heatmap.color'] = "GreenWhiteRed"
-RCircos.Reset.Plot.Parameters(RC.param)
 
-RCircos.Heatmap.Plot(data, data.col = 7, track.num = 10, side = "in",
-                     min.value = -2, max.value = 2,
-                     is.sorted = F)
-![circos-plot](https://user-images.githubusercontent.com/110582335/197978950-fa3adffa-5fad-456d-a0a9-12cedddbad9e.png)
+RC.param['heatmap.color'] = "GreenWhiteRed"
+
+RCircos.Reset.Plot.Parameters(RC.param)
+![circosplot](https://user-images.githubusercontent.com/110582335/200104364-2e20f02f-814e-4442-be93-e26dee143c0c.png)
+
+# Interpretation :
+Outer circle indicates presence of genes on respective chromosomes 
