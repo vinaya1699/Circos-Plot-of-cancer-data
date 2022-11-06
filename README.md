@@ -121,8 +121,6 @@ RCircos.Heatmap.Plot(data, data.col = 7, track.num = 6, side = "in",
 
 RC.param = RCircos.Get.Plot.Parameters()
 
-RC.param['heatmap.color'] = "GreenWhiteRed"
-
 RCircos.Reset.Plot.Parameters(RC.param)
 ![image](https://user-images.githubusercontent.com/110582335/200104612-5d46e401-f2fd-416c-8b11-245c531c92c8.png)
 
