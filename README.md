@@ -127,5 +127,7 @@ RCircos.Reset.Plot.Parameters(RC.param)
 
 # Interpretation :
 Outer circle indicates number of chromosome pairs 
+
 2nd circle indicates presence of genes on respective chromosomes 
+
 Inner circle represent a heatmap whereas blank spaces in it shows absence of genes .
